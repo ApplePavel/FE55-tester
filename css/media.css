@@ -46,6 +46,13 @@
 
 
 @media (max-width: 768px){
+    .header{
+        position: fixed;
+        width: 100%;
+    }
+    .hidden-menu{
+        display: block;
+    }      
     .poster h1{
         font-size: 36px;
     }
@@ -173,9 +180,7 @@
 }
 @media (max-width: 600px){
 
-    .poster{
-        padding: 60px 0 20px 0;
-    }
+
     .poster h1{
         font-size: 36px;
     }
